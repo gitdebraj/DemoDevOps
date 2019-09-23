@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>app1</groupId>
-  <artifactId>app1</artifactId>
+  <groupId>devopsdemo</groupId>
+  <artifactId>devopsdemo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>app1</name>
-  <description>POM for app1</description>
+  <name>devopsdemo</name>
+  <description>POM for devopsdemo</description>
   <build>
     <sourceDirectory>app1/src</sourceDirectory>
     <resources>
@@ -16,9 +16,6 @@
       </resource>
     </resources>
 
-  <name>app2</name>
-  <description>POM for app2</description>
-  <build>
     <sourceDirectory>app2/src</sourceDirectory>
     <resources>
       <resource>
