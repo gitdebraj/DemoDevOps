@@ -1,0 +1,32 @@
+echo "The Build script is getting executed"
+echo "Build app1"
+cd app1/src/app1
+javac -d ../../bin/app1/ Demo1.java
+cd ..
+echo "execute app1"
+pwd
+cd ../bin/
+pwd
+java -cp . app1.Demo1
+echo "Dockerize app1"
+docker build -t dockerapp1 .
+docker run dockerapp1
+docker tag dockerapp1 debrajgupta/debfirstrepo:dockerapp1
+echo "Completed for first app"
+
+
+echo "Build app2"
+cd ../../app2/src/app2
+javac -d ../../bin/app2/ Demo2.java
+cd ..
+echo "execute app2"
+pwd
+cd ../bin/
+pwd
+java -cp . app2.Demo2
+echo "Dockerize app2"
+docker build -t dockerapp2 .
+docker run dockerapp2
+docker tag dockerapp2 debrajgupta/debfirstrepo:dockerapp2
+echo "Completed for second app"
+
