@@ -704,3 +704,19 @@ org.eclipse.jdt.core.JavaModelException: bin/app1/app1 [in app1] is not on its p
 2019-09-24 15:25:44,732 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
 2019-09-24 15:25:56,052 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/ubuntu/Assessment/app2
 2019-09-24 15:25:56,052 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean package
+2019-09-24 15:31:57,852 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: app2:app2:0.0.1-SNAPSHOT @ /home/ubuntu/Assessment/app2/pom.xml.
+2019-09-24 15:31:57,919 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-24 15:31:57,920 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ubuntu/Assessment/app2/src/main/resources
+2019-09-24 15:31:57,922 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-24 15:31:57,922 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ubuntu/Assessment/app2/src/test/resources
+2019-09-24 15:32:19,653 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-09-24 15:32:33,141 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/ubuntu/Assessment/app1
+2019-09-24 15:32:33,141 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean package
+2019-09-24 15:33:30,315 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: app1:app1:0.0.1-SNAPSHOT @ /home/ubuntu/Assessment/app1/pom.xml.
+2019-09-24 15:33:30,380 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-24 15:33:30,386 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-24 15:33:30,393 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-24 15:33:30,393 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ubuntu/Assessment/app1/src/test/resources
+2019-09-24 15:33:40,023 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-09-24 15:33:48,483 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/ubuntu/Assessment/app1
+2019-09-24 15:33:48,483 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean package
