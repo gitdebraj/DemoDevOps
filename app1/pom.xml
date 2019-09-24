@@ -7,7 +7,8 @@
   <description>POM for app1</description>
   <build>
     <sourceDirectory>src</sourceDirectory>
-     <resources>
+    <outputDirectory>/home/ubuntu/Assessment/app1/bin</outputDirectory>
+    <resources>
       <resource>
         <directory>src</directory>
         <excludes>
