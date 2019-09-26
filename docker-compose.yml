@@ -1,4 +1,6 @@
 version: '3'
 services:
-  image:  debrajgupta/debfirstrepo:dockerapp1
-          debrajgupta/debfirstrepo:dockerapp2
+  app1: 
+    image:  dockerapp1
+  app2:
+    image:  dockerapp2
